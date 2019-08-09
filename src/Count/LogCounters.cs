@@ -91,7 +91,7 @@ namespace PipServices3.Components.Count
 
             foreach (var counter in countersArray)
             {
-                _logger.Info(null, CounterToString(counter));
+                _logger.Info("log-counters", CounterToString(counter));
             }
         }
     }
